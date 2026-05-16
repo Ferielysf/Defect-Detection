@@ -1,0 +1,17 @@
+model,format,size_mb,inf_ms,accuracy,precision,recall,f1
+Cracking,Keras (.h5),10.22,117.53,99.29,99.43,99.14,99.28
+Cracking,TFLite float32,9.71,9.77,99.29,99.43,99.14,99.28
+Cracking,TFLite float16,4.88,9.47,99.29,99.43,99.14,99.28
+Cracking,TFLite INT8,2.91,16.83,98.43,99.71,97.14,98.41
+Stringing,Keras (.h5),10.22,98.2,99.29,99.43,99.14,99.28
+Stringing,TFLite float32,9.71,10.07,99.29,99.43,99.14,99.28
+Stringing,TFLite float16,4.89,9.41,99.43,99.43,99.43,99.43
+Stringing,TFLite INT8,2.91,16.29,95.57,91.86,100.0,95.76
+Warping,Keras (.h5),10.22,77.0,96.29,93.55,99.43,96.4
+Warping,TFLite float32,9.71,9.77,96.29,93.55,99.43,96.4
+Warping,TFLite float16,4.88,9.44,96.43,93.8,99.43,96.53
+Warping,TFLite INT8,2.91,16.79,96.29,98.5,94.0,96.2
+4-Class,Keras (.h5),10.22,101.92,100.0,100.0,100.0,100.0
+4-Class,TFLite float32,9.71,9.41,100.0,100.0,100.0,100.0
+4-Class,TFLite float16,4.89,9.54,100.0,100.0,100.0,100.0
+4-Class,TFLite INT8,2.91,-4.26,99.93,99.93,99.93,99.93
