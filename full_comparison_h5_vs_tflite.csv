@@ -1,0 +1,17 @@
+Model,Format,Size (MB),Acc (%),Prec (%),Rec (%),F1 (%),Inf (ms)
+MobileNetV2,Keras H5,10.22,99.74,99.76,99.76,99.76,167.31
+MobileNetV2,float32,9.71,99.74,99.76,99.76,99.76,9.4
+MobileNetV2,float16,4.88,99.74,99.76,99.76,99.76,8.15
+MobileNetV2,int8,2.9,99.61,99.71,99.59,99.65,9.56
+MobileNetV3Small,Keras H5,8.37,98.71,98.79,98.86,98.83,175.12
+MobileNetV3Small,float32,4.13,98.71,98.79,98.86,98.83,1.95
+MobileNetV3Small,float16,2.1,98.71,98.79,98.86,98.83,1.96
+MobileNetV3Small,int8,1.31,81.83,87.33,80.91,82.61,9.78
+MobileNetV3Large,Keras H5,22.03,99.36,99.43,99.39,99.41,194.42
+MobileNetV3Large,float32,12.29,99.36,99.43,99.39,99.41,7.22
+MobileNetV3Large,float16,6.18,99.36,99.43,99.39,99.41,7.21
+MobileNetV3Large,int8,3.57,71.65,77.22,76.4,73.37,27.1
+CA-CNN,Keras H5,2.32,99.74,99.81,99.73,99.76,94.18
+CA-CNN,float32,0.7,99.74,99.81,99.73,99.76,3.43
+CA-CNN,float16,0.37,99.74,99.81,99.73,99.76,3.62
+CA-CNN,int8,0.3,99.74,99.81,99.73,99.76,12.29
